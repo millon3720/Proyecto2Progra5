@@ -1,4 +1,6 @@
-//Funciona el push
+//Funciona el   push
+package com.example.proyectoprogra5;
+
 import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
@@ -6,7 +8,9 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
 
-public class dbContext extends SQLiteOpenHelper{
+
+public class dbContext extends SQLiteOpenHelper {
+
     private static final String DB_NAME = "proyecto2progra";
     private static final int DB_VERSION = 1;
     private static final String TABLE_Usuario = "usuario";
