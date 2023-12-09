@@ -7,7 +7,10 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
+
+
 public class dbContext extends SQLiteOpenHelper {
+
     private static final String DB_NAME = "proyecto2progra";
     private static final int DB_VERSION = 1;
     private static final String TABLE_Usuario = "usuario";
@@ -50,4 +53,5 @@ public class dbContext extends SQLiteOpenHelper {
         db.execSQL("DROP TABLE IF EXISTS " + TABLE_Productos);
         onCreate(db);
     }
+
 }
